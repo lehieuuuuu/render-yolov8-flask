@@ -5,7 +5,7 @@ import numpy as np
 import base64
 
 app = Flask(__name__)
-model = YOLO("models/good.pt")
+model = YOLO("good.pt")
 
 
 cap = cv2.VideoCapture(0)
